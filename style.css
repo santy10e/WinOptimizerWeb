@@ -31,18 +31,21 @@ body {
 }
 
 .download-btn {
-  background-color: white;
-  color: #1e3a8a;
+  background-color: #1e3a8a;
+  color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   font-weight: bold;
   text-decoration: none;
+  cursor: pointer;
   transition: background 0.2s;
+  display: inline-block;
 }
 
 .download-btn:hover {
-  background-color: #e2e8f0;
+  background-color: #3b82f6;
 }
+
 
 .features {
   background-color: #ffffff;
@@ -70,3 +73,4 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
+

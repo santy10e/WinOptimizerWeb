@@ -1,0 +1,95 @@
+/* 🔝 TOP BANNERS (728x90) */
+#banner-top-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  z-index: 10000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.banner-top {
+  width: 728px;
+  height: 90px;
+  flex-shrink: 0;
+}
+
+/* 📱 SOCIAL BAR FLOTANTE (POPHUNTER) */
+.pop-hunter-socialbar {
+  position: fixed;
+  width: 40px;
+  height: 100px;
+  pointer-events: auto;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+}
+
+/* ⬇️ BANNER INFERIOR CENTRAL (468x60) */
+#container-banner-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 468px;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9997;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner-bottom-468x60 {
+  width: 468px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+/* 🔽 BANNERS INFERIORES IZQUIERDA Y DERECHA (300x250) */
+#banners-left,
+#banners-right {
+  position: fixed;
+  bottom: 100;
+  display: flex;
+  flex-direction: column-reverse;
+  z-index: 9999;
+}
+
+#banners-left {
+  left: 0;
+}
+
+#banners-right {
+  right: 0;
+}
+
+.banner-box {
+  width: 300px;
+  height: 250px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 📐 PREVENIR QUE EL CONTENIDO SE ESCONDA DETRÁS DE ANUNCIOS */
+body {
+  padding-top: 100px;
+  padding-left: 310px;
+  padding-right: 310px;
+  padding-bottom: 270px;
+}
